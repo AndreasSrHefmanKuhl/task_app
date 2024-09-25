@@ -55,7 +55,8 @@ Die Funktion soll einen Parameter vom Typ `int` entgegennehmen und einen `String
 Die Funktion soll die Sekunden in Stunden, Minuten und Sekunden umrechnen und als String zurückgeben.
 
 Beispiel: 12345 Sekunden → 3 Stunden, 25 Minuten, 45 Sekunden
-
+ int b = (int a / 3600) -> minute;
+(intb / 3600) -> Stunden
 **Hinweis: Das UI ist bereits fertig implementiert. Du musst nur die Funktion `formatSeconds` implementieren.**
 """,
 );
