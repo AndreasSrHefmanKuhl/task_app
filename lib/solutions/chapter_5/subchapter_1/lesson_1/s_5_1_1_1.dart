@@ -37,17 +37,13 @@ class _S5111State extends State<S5111> {
               Container(
                 width: 100,
                 height: 100,
-                color: _isRedFirst
-                    ? const Color.fromARGB(255, 255, 17, 0)
-                    : const Color.fromARGB(255, 46, 7, 16),
+                color: _isRedFirst ? Colors.red : Colors.green,
               ),
               const SizedBox(width: 20),
               Container(
                 width: 100,
                 height: 100,
-                color: _isRedFirst
-                    ? Colors.green
-                    : const Color.fromARGB(255, 111, 244, 54),
+                color: _isRedFirst ? Colors.green : Colors.red,
               ),
             ],
           ),
